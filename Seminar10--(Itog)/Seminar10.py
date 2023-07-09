@@ -1,6 +1,6 @@
-
-
-
+#Задача 44: В ячейке ниже представлен код генерирующий DataFrame, которая состоит всего
+#из 1 столбца. Ваша задача перевести его в one hot вид. Сможете ли вы это сделать без
+#get_dummies?
 
 import pandas as pd
 
@@ -16,7 +16,7 @@ whoAmI_robot = pd.DataFrame({'whoAmI_robot':df['whoAmI'].apply(lambda x: 1 if x 
 df1['whoAmI_robot'] = whoAmI_robot
 
 df1
-    whoAmI
+   whoAmI
 0   human
 1   human
 2   human
@@ -80,3 +80,9 @@ whoAmI_human	whoAmI_robot
 17	0	1
 18	0	1
 19	1	0
+ 
+ 
+ 
+ 
+ 
+ 
